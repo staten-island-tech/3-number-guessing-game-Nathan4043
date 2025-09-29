@@ -1,9 +1,13 @@
 import random 
 random_integer = random.randint(1, 10)
-intguess = int(input)
-print(random_integer)
-while not  random_integer = intguess :
+intguess = input
+while not  random_integer == intguess:
     print("Guess a number")
-if int(input) is intguess:
+    input(int)
+if input(int) == intguess:
     print("correct")
+    print(random_integer)
+else: 
+    print("wrong")
+    
 
