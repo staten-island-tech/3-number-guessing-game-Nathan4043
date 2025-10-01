@@ -76,7 +76,7 @@ while True:
         print(history)
     if random_integer == Guess:
         print("Correct!")
-        print(history)
+        print("History",history)
         break
 
 
